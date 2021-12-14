@@ -1,0 +1,223 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: gilroy;
+  src: url(../font/Gilroy-Medium.ttf);
+}
+
+.gilroy {
+  font-family: gilroy;
+}
+
+@font-face {
+  font-family: gilroy-regular;
+  src: url(../font/Gilroy-Regular.ttf);
+}
+
+.gilroy-regular {
+  font-family: gilroy-regular;
+}
+
+@font-face {
+  font-family: gilroy-bold;
+  src: url(../font/Gilroy-Bold.ttf);
+}
+
+.gilroy-bold {
+  font-family: gilroy-bold;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.shadow-primary {
+  --tw-shadow: 0 6.65px 11.57px rgba(0, 0, 0, 0.04),
+    0 22.34px 37.87px rgba(0, 0, 0, 0.05), 0 100px 174px rgba(0, 0, 0, 0.09);
+  box-shadow: var(
+      --tw-ring-offset-shadow,
+      0 6.65px rgba(0, 0, 0, 0.04),
+      0 22.34px rgba(0, 0, 0, 0.05),
+      0 100px rgba(0, 0, 0, 0.09)
+    ),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/*       FONT COLOR       */
+
+.text-primary {
+  color: rgba(44, 46, 47, 1);
+}
+
+.text-secondary {
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-accent {
+  color: rgba(178, 11, 11, 1);
+}
+
+.text-facebook {
+  color: #2c72ce;
+}
+
+.text-twitter {
+  color: rgba(71, 172, 223, 1);
+}
+
+/*            BACKGROUND COLOR             */
+
+.bg-primary {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.bg-secondary {
+  background-color: rgba(178, 11, 11, 0.15);
+}
+
+.bg-accent {
+  background-color: rgba(178, 11, 11, 1);
+}
+
+/*            FONT SIZES             */
+
+.font-primary {
+  font-size: 0.7rem;
+}
+
+.font-secondary {
+  font-size: 1.6rem;
+}
+
+.font-tertiary {
+  font-size: 0.8rem;
+}
+
+.font-banner-head {
+  font-size: 1.8rem;
+}
+
+.font-banner-desc {
+  font-size: 0.8rem;
+}
+
+.font-emoji-desc {
+  font-size: 0.9rem;
+}
+
+.font-mobile-head {
+  font-size: 1.85rem;
+}
+
+.font-footer {
+  font-size: 0.65rem;
+}
+
+/*            RESPONSIVE FONT SIZES             */
+
+@media all and (min-width: 768px) {
+  .font-primary {
+    font-size: 0.8rem;
+  }
+
+  .font-secondary {
+    font-size: 1.8rem;
+  }
+
+  .font-tertiary {
+    font-size: 0.9rem;
+  }
+
+  .font-banner-head {
+    font-size: 3rem;
+  }
+
+  .font-banner-desc {
+    font-size: 1rem;
+  }
+
+  .font-emoji-desc {
+    font-size: 1rem;
+  }
+
+  .font-mobile-head {
+    font-size: 2.05rem;
+  }
+
+  .font-footer {
+    font-size: 0.7rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .font-primary {
+    font-size: 1rem;
+  }
+
+  .font-secondary {
+    font-size: 2rem;
+  }
+
+  .font-tertiary {
+    font-size: 1.1rem;
+  }
+
+  .font-banner-head {
+    font-size: 3.6rem;
+  }
+
+  .font-banner-desc {
+    font-size: 1.2rem;
+  }
+
+  .font-emoji-desc {
+    font-size: 1.2rem;
+  }
+
+  .font-mobile-head {
+    font-size: 2.25rem;
+  }
+
+  .font-footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (min-width: 2000px) {
+  .font-primary {
+    font-size: 1.8rem;
+  }
+
+  .font-secondary {
+    font-size: 2.4rem;
+  }
+
+  .font-tertiary {
+    font-size: 2rem;
+  }
+
+  .font-banner-head {
+    font-size: 4rem;
+  }
+
+  .font-banner-desc {
+    font-size: 4rem;
+  }
+
+  .font-emoji-desc {
+    font-size: 1.8rem;
+  }
+
+  .font-mobile-head {
+    font-size: 2.7rem;
+  }
+
+  .font-footer {
+    font-size: 1.1rem;
+  }
+}

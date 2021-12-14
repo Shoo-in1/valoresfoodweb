@@ -1,0 +1,272 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VALORES FOOD</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/output.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <main class="flex flex-col gilroy">
+      <!-- Banner -->
+      <section class="banner bg-primary">
+        <div
+          class="
+            mx-5
+            md:mx-10
+            xl:mx-24
+            flex flex-col
+            space-y-3
+            justify-center
+            items-center
+            text-center
+          "
+        >
+          <div class="mb-6 mt-2">
+            <img src="{% static 'img/Group23.svg' %}" alt="Icon_preview" />
+          </div>
+          <div class="font-banner-head leading-tight gilroy-bold">
+            Meal preppin' should be fun. Relax, let's show you how.
+          </div>
+          <div class="font-banner-desc gilroy-regular font-banner-desc"></div>
+          Join many African households and businesses today to beat the hassle
+          of planning meals and shopping for ingredients to make them.
+        </div>
+        <div class="flex flex-row justify-between items-end">
+          <div>
+            <img src="{% static 'img/image3.svg' %}" alt="" />
+          </div>
+          <div>
+            <img src="{% static 'img/image4.svg' %}" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Grow your food -->
+      <section class="px-5 md:px-10 xl:px-24 py-10 xl:py-16">
+        <div
+          class="flex flex-col items-center lg:grid grid-cols-2 gap-6 xl:gap-24"
+        >
+          <div class="mb-8 lg:mb-0">
+            <div class="font-secondary text-accent gilroy-bold">
+              Grow your food business with Valores.
+            </div>
+            <div class="font-tertiary text-primary">
+              Save time on planning and procuring food items. Save money also,
+              by avoiding spoilage and wastes from excessively buying supplies.
+            </div>
+            <div class="flex space-x-3 items-start pt-4 pb-2 lg:pt-8 lg:pb-5">
+              <img src="{% static 'img/Group(2).svg' %}" alt="" />
+              <div class="font-primary">
+                We let restaurants and eating-places focus on what's important:
+                cooking and serving tasty meals!
+              </div>
+            </div>
+            <div class="flex space-x-3 items-start pb-8">
+              <img src="{% static 'img/Group(1).svg' %}" alt="" />
+              <div class="font-primary">
+                We help you sort and deliver fresh ingredients, just enough to
+                meet your daily or weekly needs.
+              </div>
+            </div>
+            <div class="items-center font-primary text-white">
+              <button class="bg-accent py-2 px-8 rounded-2xl shadow-primary">
+                <a href="https://5thg913jwpp.typeform.com/to/ysu2Qe5A">Get Started</a>
+              </button>
+            </div>
+          </div>
+          <div>
+            <img
+              class="rounded-xl shadow-primary"
+              src="{% static 'img/image14.svg' %}"
+              alt="chef_preview"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Meal Kits -->
+      <section
+        class="px-5 md:px-10 xl:px-24 pt-10 xl:pt-16 pb-6 xl:pb-10 bg-white"
+      >
+        <div
+          class="
+            flex flex-col-reverse
+            lg:grid
+            grid-cols-2
+            gap-6
+            md:items-center
+          "
+        >
+          <div class="mb-8 lg:mb-0">
+            <img
+              class="rounded-xl shadow-primary"
+              src="{% static 'img/image13.svg' %}"
+              alt="mealkit_preview"
+            />
+          </div>
+          <div>
+            <div class="font-secondary text-accent gilroy-bold">
+              Meal-kits for Everyone and Anyone.
+            </div>
+            <div class="font-tertiary text-primary">
+              You take the stress out of meal-prep, everytime you buy a
+              meal-kit.
+            </div>
+            <div class="flex space-x-3 items-start pt-4 pb-8 lg:pt-8">
+              <img src="{% static 'img/Group(3).svg' %}" alt="" />
+              <div class="font-primary">
+                We guarantee you always, a variety of meal options to explore.
+              </div>
+            </div>
+            <div class="items-center font-primary text-white">
+              <button class="bg-accent py-2 px-8 rounded-2xl shadow-primary">
+                <a href="https://paystack.shop/valores">Order Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What's in your Valores -->
+      <section class="px-8 md:px-10 xl:px-24 py-10 xl:py-16 bg-white">
+        <div>
+          <div class="text-center font-secondary text-primary gilroy-bold">
+            What’s in your <span class="text-accent mx-2"> Valores </span> meal
+            Kit?
+          </div>
+          <div
+            class="
+              items-center
+              md:items-start
+              flex flex-col
+              md:grid
+              grid-cols-3
+              gap-10
+              pt-10
+              xl:pt-16
+              text-secondary
+              font-emoji-desc
+            "
+          >
+            <div
+              class="
+                flex flex-col
+                justify-center
+                items-center
+                space-y-8
+                text-center
+              "
+            >
+              <img src="{% static 'img/Group16.svg' %}" alt="text_preview" />
+              <div>Easy-to-follow chef-designed recipes.</div>
+            </div>
+            <div
+              class="
+                flex flex-col
+                justify-center
+                items-center
+                space-y-8
+                text-center
+              "
+            >
+              <img src="{% static 'img/Group17.svg' %}" alt="happy_preview" />
+              <div>
+                An exciting cooking experience that makes you relish the
+                feeling, and refer ‘everyone and anyone'.
+              </div>
+            </div>
+            <div
+              class="
+                flex flex-col
+                justify-center
+                items-center
+                space-y-8
+                text-center
+              "
+            >
+              <img src="{% static 'img/Group18.svg' %}" alt="food_preview" />
+              <div>★ Perfectly-rationed, quality ingredients.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mobile App -->
+      <section class="px-5 md:px-10 xl:px-24 py-7 xl:py-10 bg-secondary">
+        <div class="items-center md:grid grid-cols-8 gap-5 xl:gap-10">
+          <div class="col-span-5 mb-8 md:mb-0">
+            <div
+              class="
+                font-mobile-head
+                text-secondary
+                gilroy-bold
+                text-center
+                md:text-left
+                mb-5
+              "
+            >
+              Available on mobile app soon!
+            </div>
+            <div class="flex space-x-11">
+              <div>
+                <img src="{% static 'img/image6.svg' %}" alt="ios_preview" />
+              </div>
+              <div>
+                <img src="{% static 'img/image7.svg' %}" alt="playstore_preview" />
+              </div>
+            </div>
+          </div>
+          <div class="col-span-3">
+            <img src="{% static 'img/Group25.svg' %}" alt="phone_preview" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="px-5 md:px-10 xl:px-24 font-footer">
+      <div class="text-center">
+        <div class="my-5 flex justify-center space-x-5 font-tertiary">
+          <a href="https://www.facebook.com/ValoresHQ" class="text-facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com/valores_food" class="text-twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/valores-food"
+            class="text-facebook"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/valores_food">
+            <i
+              class="
+                fab
+                fa-instagram
+                bg-gradient-to-br
+                rounded-2xl
+                from-purple-800
+                via-pink-600
+                to-yellow-500
+              "
+            ></i>
+          </a>
+        </div>
+        <div class="mb-5">
+          <div class="mb-1">&COPY;2021 Valores, All rights reserved.</div>
+          <div>Terms & Conditions · Privacy Policy · Cookies</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
