@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-78+9bva3-tkbi24qz&8qp$5aw(*0k3))rc1pj_bhv*75&!x8@v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'valoresfoodweb.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'valoresfoodweb.herokuapp.com', 'valores.africa', 'www.valores.africa']
 
 
 # Application definition
